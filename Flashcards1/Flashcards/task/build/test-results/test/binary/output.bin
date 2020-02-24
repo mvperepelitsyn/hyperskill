@@ -1,0 +1,97 @@
+[1;31m
+Start test 1[0m
+:Input the action (add, remove, import, export, ask, exit):
+>add
+	The card:
+>black
+The definition of the card:
+>white
++The pair ("black":"white") has been added.
+
+:Input the action (add, remove, import, export, ask, exit):
+>add
+	The card:
+>black
+!The card "black" already exists.
+
+:Input the action (add, remove, import, export, ask, exit):
+>add
+	The card:
+>red
+The definition of the card:
+>white
+'The definition "white" already exists.
+
+:Input the action (add, remove, import, export, ask, exit):
+>ask
+How many times to ask?
+>2
+ Print the definition of "black":
+>white
+Correct answer.
+ Print the definition of "black":
+>green
+)Wrong answer. The correct one is "white".
+
+:Input the action (add, remove, import, export, ask, exit):
+>exit
+Bye Bye!
+[1;31m
+Start test 2[0m
+:Input the action (add, remove, import, export, ask, exit):
+>add
+	The card:
+>a brother of one's parent
+The definition of the card:
+>uncle
+?The pair ("a brother of one's parent":"uncle") has been added.
+
+:Input the action (add, remove, import, export, ask, exit):
+>add
+	The card:
+4>a part of the body where the foot and the leg meet
+The definition of the card:
+>ankle
+XThe pair ("a part of the body where the foot and the leg meet":"ankle") has been added.
+
+:Input the action (add, remove, import, export, ask, exit):
+>ask
+How many times to ask?
+>6
+4Print the definition of "a brother of one's parent":
+>ankle
+…Wrong answer. The correct one is "uncle", you've just written the definition of "a part of the body where the foot and the leg meet".
+MPrint the definition of "a part of the body where the foot and the leg meet":
+>??
+)Wrong answer. The correct one is "ankle".
+4Print the definition of "a brother of one's parent":
+>uncle
+Correct answer.
+MPrint the definition of "a part of the body where the foot and the leg meet":
+>ankle
+Correct answer.
+4Print the definition of "a brother of one's parent":
+>??
+)Wrong answer. The correct one is "uncle".
+MPrint the definition of "a part of the body where the foot and the leg meet":
+>uncle
+lWrong answer. The correct one is "ankle", you've just written the definition of "a brother of one's parent".
+
+:Input the action (add, remove, import, export, ask, exit):
+>exit
+Bye Bye!
+[1;31m
+Start test 3[0m
+:Input the action (add, remove, import, export, ask, exit):
+>export
+
+File name:
+>capitals.txt
+:Input the action (add, remove, import, export, ask, exit):
+>export
+
+File name:
+>capitalsNew.txt
+:Input the action (add, remove, import, export, ask, exit):
+>exit
+Bye Bye!
